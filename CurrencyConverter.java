@@ -44,7 +44,6 @@ public class CurrencyConverter {
 
             System.out.println("Would you like to continue? (y/n)");
 
-
             if (sc.next().equals("n")) {
                 rep = false;
             } else {
