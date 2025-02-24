@@ -32,6 +32,7 @@ public class CurrencyConverter {
             Scanner sc = new Scanner(System.in);
             System.out.println("Welcome to currency converter!\n");
             System.out.println("Visit this link to know the desired Currency Code: https://www.exchangerate-api.com/docs/supported-currencies \n");
+            System.out.println();
             System.out.println("Type the currency you want to convert from: eg. USD");
             fromCode = sc.next();
             System.out.println("Select the currency you want to convert into:");
